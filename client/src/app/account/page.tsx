@@ -24,7 +24,7 @@ const Account = () => {
         const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/users/me`);
         setUser(response.data.user);
       } catch (error) {
-        //console.error('Error fetching user data:', error);
+        console.error('Error fetching user data:', error);
       } finally {
         setLoading(false);
       }
