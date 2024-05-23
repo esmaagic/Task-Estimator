@@ -42,7 +42,7 @@ app.use(
         store: store,
         cookie: {
             secure: env === 'production',
-            /* httpOnly: true, */
+            httpOnly: true,
           },
     }))
 
