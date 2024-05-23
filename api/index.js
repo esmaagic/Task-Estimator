@@ -49,6 +49,11 @@ const corsOptions = {
 
     app.use(cors(corsOptions));
 
+
+    console.log("----------------");
+    console.log(originRoute);
+    console.log("----------------");
+    
 app.use(express.urlencoded({extended:false}))
 app.use(express.json())
 app.get('/', (req,res)=> {res.send("salkjfaslfjsalödf")})
