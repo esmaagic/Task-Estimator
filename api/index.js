@@ -42,7 +42,7 @@ app.use(
 
 
 const corsOptions = {
-    origin: originRoute, // Your frontend's origin
+    origin: '*', // Your frontend's origin
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
     };
 
