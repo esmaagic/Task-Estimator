@@ -12,8 +12,10 @@ const withAuth = (WrappedComponent: React.FC) => {
       const checkAuth = async () => {
         const user = await getCurrentUser();
         if (user) {
+          console.log('ima usera')
           setIsAuthenticated(true);
         } else {
+          console.log('nema usera')
           router.push('/login');
         }
         setLoading(false);
