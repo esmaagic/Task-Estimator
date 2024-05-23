@@ -10,7 +10,7 @@ Progress Visualization: Visualize progress over time through interactive charts,
 
 
 ## Api
-### Instalation
+### Installation
 
 1. Navigate to the api directory
 2. Run ***npm install*** to install dependencies.
@@ -22,7 +22,7 @@ Progress Visualization: Visualize progress over time through interactive charts,
 4. Run ***npm run dev*** and head over to localhost:5000
 
 ## Client
-### Instalation
+### Installation
 
 1. Navigate to client directory
 2. Run ***npm install*** to install dependencies
