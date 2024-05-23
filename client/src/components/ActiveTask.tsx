@@ -41,7 +41,7 @@ const ActiveTask: React.FC<ActiveTaskProps> = ({ item, onUpdate }) => {
 
   const handleOptionComplete = async () => {
     try {
-      await axios.put(`http://localhost:5000/tasks/complete/${item._id}`, { withCredentials: true });
+      await axios.put(`${process.env.NEXT_PUBLIC_API_URL}/tasks/complete/${item._id}`, { withCredentials: true });
       onUpdate()
 
     } catch (error) {
