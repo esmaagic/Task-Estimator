@@ -1,3 +1,13 @@
+# Visit TaskEstimator [task-estimator-client.vercel.app](task-estimator-client.vercel.app)
+### IMPORTANT: Please use FireFox when accessing the applicatoin.
+I am currently facing some issues with session cookies in Chrome and hope to resolve them very soon.
+
+
+
+
+
+
+
 # Task Management App
 Our app empowers users to efficiently manage their tasks by providing a simple and intuitive interface. With just a few clicks, users can create tasks, specifying their title, estimated time, and difficulty level.
 
