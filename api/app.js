@@ -6,6 +6,8 @@ const app = express()
 const cors = require('cors')
 require('dotenv').config()
 
+import { inject } from '@vercel/analytics';
+inject();
 
 const authRouter = require('./routes/auth')
 const taskRouter = require('./routes/task')
