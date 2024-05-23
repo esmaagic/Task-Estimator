@@ -23,7 +23,7 @@ const CompletedTasks: React.FC = () => {
   const [data, setData] = useState<Task[]>([]);
   const fetchData = async () => {
     try {
-      const response: Task[] = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/tasks/completed`, { withCredentials: true } );
+      const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/tasks/completed`, { withCredentials: true } );
       const result: Task[] =  response.data;
       setData(result);
 

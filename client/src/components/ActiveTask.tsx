@@ -16,10 +16,14 @@ interface Task {
   real_difficulty: string;
   user_id: number;
   completed: boolean;
-
 }
 
-const ActiveTask: React.FC<Task> = ({ item, onUpdate }) => {
+interface ActiveTaskProps {
+  item: Task;
+  onUpdate: () => Promise<void>;
+}
+
+const ActiveTask: React.FC<ActiveTaskProps> = ({ item, onUpdate }) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const open = Boolean(anchorEl);

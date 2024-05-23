@@ -12,7 +12,12 @@ interface IFormInput {
   estimated_difficulty: string;
 }
 
-const CreateTaskButton: React.FC = ({ onUpdate }) => {
+interface CreateTaskButtonProps {
+  onUpdate: () => Promise<void>;
+}
+
+
+const CreateTaskButton: React.FC<CreateTaskButtonProps> = ({ onUpdate }) => {
 
   const { register, handleSubmit, formState: { errors } } = useForm<IFormInput>();
   const [loginError, setLoginError] = useState('');

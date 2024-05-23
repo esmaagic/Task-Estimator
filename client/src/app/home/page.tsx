@@ -23,7 +23,7 @@ const HomePage: React.FC = () => {
   const [data, setData] = useState<Task[]>([]);
   const fetchData = async () => {
     try {
-      const response: Task[] = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/tasks/active`, { withCredentials: true } );
+      const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/tasks/active`, { withCredentials: true } );
       const result: Task[] =  response.data;
       setData(result);
     } catch (error) {
@@ -76,11 +76,4 @@ export default withAuth(HomePage);
 
 
 
-/* 
-{data.map((item) => (
-      <ActiveTask key={item._id} item={item} onUpdate={fetchData} />
-    ))}
-
-    <CreateTaskButton onUpdate={fetchData}/>
-*/
       

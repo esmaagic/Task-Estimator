@@ -67,8 +67,8 @@ const Register = ()=> {
           margin="normal"
           label="First Name"
           {...register('firstname', { required: 'First firstname is required' })}
-          error={!!errors.name}
-          helperText={errors.name ? errors.name.message : ''}
+          error={!!errors.firstname}
+          helperText={errors.firstname ? errors.firstname.message : ''}
         />
         <TextField
           fullWidth
