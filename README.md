@@ -1,10 +1,6 @@
 # Visit TaskEstimator [task-estimator-client.vercel.app](task-estimator-client.vercel.app)
 ### IMPORTANT: Please use FireFox when accessing the applicatoin.
-I am currently facing some issues with session cookies in Chrome and hope to resolve them very soon.
-
-
-
-
+I am currently facing some issues with session cookies in Chrome and hope to resolve them very soon. 
 
 
 
@@ -12,11 +8,11 @@ I am currently facing some issues with session cookies in Chrome and hope to res
 Our app empowers users to efficiently manage their tasks by providing a simple and intuitive interface. With just a few clicks, users can create tasks, specifying their title, estimated time, and difficulty level.
 
 ## Features
-Task Creation: Easily create tasks with a title, estimated time, and difficulty level.
-Real-Time Updates: Update tasks with the actual time spent and difficulty experienced as users progress.
-Accurate Tracking: Ensure accurate tracking of activities with real-time updates.
-Estimation Accuracy: Automatically calculate the accuracy of users' estimations once a task is completed, providing valuable insights into their planning abilities.
-Progress Visualization: Visualize progress over time through interactive charts, gaining deeper insights into productivity patterns.
+Task Creation: Easily create tasks with a title, estimated time, and difficulty level.\
+Real-Time Updates: Update tasks with the actual time spent and difficulty experienced as users progress.\
+Accurate Tracking: Ensure accurate tracking of activities with real-time updates.\
+Estimation Accuracy: Automatically calculate the accuracy of users' estimations once a task is completed, providing valuable insights into their planning abilities.\
+Progress Visualization: Visualize progress over time through interactive charts, gaining deeper insights into productivity patterns.\
 
 
 ## Api
