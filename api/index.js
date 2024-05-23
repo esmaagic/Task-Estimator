@@ -13,6 +13,7 @@ const taskRouter = require('./routes/task')
 const userRouter = require('./routes/user')
 const {isAuth} = require('./middleware/auth')
 
+const env = process.env.NODE_ENV || 'development';
 
 
 
@@ -31,12 +32,18 @@ const store = new MongoDBSession({
     collection: 'userSession',
 })
 
+app.set('trust proxy', 1);
+
 app.use(
     session({
         secret: secretKey,
         resave: false,
         saveUninitialized: false,
-        store: store
+        store: store,
+        cookie: {
+            secure: env === 'production',
+            httpOnly: true,
+          },
     }))
 
 
@@ -49,11 +56,6 @@ const corsOptions = {
 
     app.use(cors(corsOptions));
 
-
-    console.log("----------------");
-    console.log(originRoute);
-    console.log("----------------");
-    
 app.use(express.urlencoded({extended:false}))
 app.use(express.json())
 app.get('/', (req,res)=> {res.send("salkjfaslfjsalödf")})
