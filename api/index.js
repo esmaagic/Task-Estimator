@@ -6,8 +6,7 @@ const app = express()
 const cors = require('cors')
 require('dotenv').config()
 
-import { inject } from '@vercel/analytics';
-inject();
+
 
 const authRouter = require('./routes/auth')
 const taskRouter = require('./routes/task')
@@ -42,7 +41,7 @@ app.use(
 
 
 const corsOptions = {
-    origin: '*', // Your frontend's origin
+    origin: originRoute, // Your frontend's origin
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
     };
 
