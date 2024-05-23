@@ -18,7 +18,7 @@ const {isAuth} = require('./middleware/auth')
 
 
 //database connection
-const port = process.env.PORT || 5000;
+const port = process.env.PORT;
 const mongoURI = process.env.MONGO_URI;
 const secretKey = process.env.SECRET_KEY;
 const originRoute = process.env.CLIENT_ORIGIN
