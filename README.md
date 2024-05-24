@@ -41,7 +41,7 @@ Progress Visualization: Visualize progress over time through interactive charts,
 - Complete a Task: Mark the task as complete to automatically calculate the estimation accuracy.
 - View Progress: Access interactive charts to visualize your progress and gain insights into your productivity patterns.
 
-## Technologies user
+## Technologies used
 1. Node.js
 2. Express.js
 3. Next.js
