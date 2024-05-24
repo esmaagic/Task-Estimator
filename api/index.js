@@ -44,7 +44,7 @@ app.use(
             secure: env === 'production',
             domain:process.env.CLIENT_ORIGIN,
             httpOnly: true,
-            same_site: 'None'
+            sameSite: 'None'
           },
     }))
 
