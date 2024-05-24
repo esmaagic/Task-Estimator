@@ -42,7 +42,7 @@ app.use(
         store: store,
         cookie: {
             secure: env === 'production',
-            domain:process.end.CLIENT_ORIGIN,
+            domain:process.env.CLIENT_ORIGIN,
             httpOnly: true,
             sameSite: 'None'
           },
