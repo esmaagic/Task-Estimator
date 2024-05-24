@@ -43,6 +43,7 @@ app.use(
         cookie: {
             secure: env === 'production',
             httpOnly: true,
+            sameSite: "None"
           },
     }))
 
