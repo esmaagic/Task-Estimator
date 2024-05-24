@@ -1,6 +1,5 @@
 # Visit TaskEstimator  [https://task-estimator-client.vercel.app/](https://task-estimator-client.vercel.app/)
-### IMPORTANT: Please use FireFox when accessing the applicatoin.
-I am currently facing some issues with session cookies in Chrome and hope to resolve them very soon. 
+
 
 
 
