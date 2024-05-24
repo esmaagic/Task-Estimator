@@ -3,7 +3,7 @@
 
 
 
-# Task Management App
+# TaskEstimator App
 Our app empowers users to efficiently manage their tasks by providing a simple and intuitive interface. With just a few clicks, users can create tasks, specifying their title, estimated time, and difficulty level.
 
 ## Features
