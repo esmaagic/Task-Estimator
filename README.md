@@ -10,7 +10,7 @@ Task Creation: Easily create tasks with a title, estimated time, and difficulty 
 Real-Time Updates: Update tasks with the actual time spent and difficulty experienced as users progress.\
 Accurate Tracking: Ensure accurate tracking of activities with real-time updates.\
 Estimation Accuracy: Automatically calculate the accuracy of users' estimations once a task is completed, providing valuable insights into their planning abilities.\
-Progress Visualization: Visualize progress over time through interactive charts, gaining deeper insights into productivity patterns.\
+Progress Visualization: Visualize progress over time through interactive charts, gaining deeper insights into productivity patterns.
 
 
 ## Api
